@@ -7,7 +7,6 @@
     "conventional-github-releaser": "^3.1.5",
     "dot-prop": "^6.0.0",
     "minimist-options": "^4.1.0",
-    "moment": "^2.29.1",
     "standard-version": "^9.0.0"
   },
   "devDependencies": {},
