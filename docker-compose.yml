@@ -1,0 +1,19 @@
+version: "3"
+services:
+  app:
+    container_name: com_nicolaspetitot
+    image: nginx:alpine
+    environment:
+      VIRTUAL_HOST: ${URL}
+      LETSENCRYPT_HOST: ${URL}
+      LETSENCRYPT_EMAIL: ${EMAIL}
+    expose:
+      - 80
+    volumes:
+      - ./src:/usr/share/nginx/html
+    networks:
+      - nginx-proxy
+    restart: always
+networks:
+  nginx-proxy:
+    external: true
