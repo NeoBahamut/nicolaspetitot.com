@@ -1,0 +1,26 @@
+{
+  "name": "com_nicolaspetitot",
+  "version": "0.1.1",
+  "description": "page d'accueil du vps nicolaspetitot.com",
+  "main": "index.js",
+  "dependencies": {
+    "conventional-github-releaser": "^3.1.5",
+    "minimist-options": "^4.1.0",
+    "standard-version": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint .",
+    "release": "standard-version && git push --follow-tags upstream master && conventional-github-releaser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeoBahamut/com_nicolaspetitot.git"
+  },
+  "author": "Nicolas Petitot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeoBahamut/com_nicolaspetitot/issues"
+  },
+  "homepage": "https://github.com/NeoBahamut/com_nicolaspetitot#readme"
+}
