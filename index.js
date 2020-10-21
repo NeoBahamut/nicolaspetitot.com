@@ -1,4 +1,4 @@
-// const moment = require("moment");
+const moment = require("moment");
 // import moment from "moment"
 
 console.log("Version old-school : fichier html brut + script .js");
