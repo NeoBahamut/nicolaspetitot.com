@@ -1,6 +1,6 @@
 # com_nicolaspetitot
 
-Serveur expérimental à usgae de formation.
+Serveur expérimental à usage de formation.
 
 Résume les différentes étapes d'évolution des outils de développement Javascript jusqu'au Javascript moderne
 
@@ -8,7 +8,9 @@ Résume les différentes étapes d'évolution des outils de développement Javas
 
 Affichage d'une page html simple avec appel de fichers .js
 
-src
-|_ index.html
-
-|_ index.js
+```json
+.                       # racine
+|
+├── index.html     # fichier de la page html
+├── index.js       # fichier de scripts
+```
