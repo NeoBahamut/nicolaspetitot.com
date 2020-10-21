@@ -1,4 +1,4 @@
 .env
-node_modules
-/dist
 webpack.dev.config.js
+node_modules
+/distwebpack.dev.config.js
