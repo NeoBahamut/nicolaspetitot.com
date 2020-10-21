@@ -9,6 +9,8 @@ services:
       LETSENCRYPT_EMAIL: ${EMAIL}
     expose:
       - 80
+    ports:
+      - 8080:80
     volumes:
       - ./:/usr/share/nginx/html
     networks:
