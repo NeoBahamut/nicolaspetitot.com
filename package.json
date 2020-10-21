@@ -8,7 +8,10 @@
     "moment": "^2.29.1",
     "standard-version": "^9.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  },
   "scripts": {
     "test": "eslint .",
     "release": "standard-version && git push --follow-tags upstream master && conventional-github-releaser"
