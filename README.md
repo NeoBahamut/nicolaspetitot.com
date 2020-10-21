@@ -1,4 +1,4 @@
-# com_nicolaspetitot
+# nicolaspetitot.com
 
 Serveur expérimental à usage de formation.
 
