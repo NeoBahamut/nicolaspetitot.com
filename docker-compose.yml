@@ -10,7 +10,7 @@ services:
     expose:
       - 80
     volumes:
-      - ./:/usr/share/nginx/html
+      - ./dist:/usr/share/nginx/html
     networks:
       - nginx-proxy
     restart: unless-stopped
