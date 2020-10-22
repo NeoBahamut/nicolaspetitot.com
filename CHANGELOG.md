@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.3...v0.1.4) (2020-10-22)
+
+
+### Features
+
+* build `index.js` en cli avec `webpack` ([9488bd4](https://github.com/NeoBahamut/com_nicolaspetitot/commit/9488bd44c2e13102da812dc103fa0c009de8add5))
+
+
+### Bug Fixes
+
+* deploie les modules ([2264733](https://github.com/NeoBahamut/com_nicolaspetitot/commit/226473383824eeba9d98480fddb7dfa3593f8584))
+* gitignore ([b536449](https://github.com/NeoBahamut/com_nicolaspetitot/commit/b5364495df4bb7c0514f4a212cf29747e6af63bc))
+
 ### [0.1.3](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.2...v0.1.3) (2020-10-21)
 
 
