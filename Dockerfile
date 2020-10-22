@@ -22,5 +22,3 @@ FROM nginx:alpine as production-stage
 WORKDIR /app
 
 COPY --from=build-stage /app/dist ./app
-
-COPY src src/
