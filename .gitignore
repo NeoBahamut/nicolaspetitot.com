@@ -1,8 +1,4 @@
 .env
 webpack.dev.config.js
 node_modules
-<<<<<<< HEAD
 /distwebpack.dev.config.js
-=======
-/dist
->>>>>>> fix: .gitignore
