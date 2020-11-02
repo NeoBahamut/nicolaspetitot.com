@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.4...v0.1.5) (2020-11-02)
+
+
+### Features
+
+* builde en multi staging ([ecf1c50](https://github.com/NeoBahamut/com_nicolaspetitot/commit/ecf1c50e12b9a8880a9dbf2f69f5a5e37fd676f0))
+* configure webpack ([89cd1cf](https://github.com/NeoBahamut/com_nicolaspetitot/commit/89cd1cfd8edc4e715af703b111692a3e7447e6b2))
+* configure webpack ([27d1f31](https://github.com/NeoBahamut/com_nicolaspetitot/commit/27d1f31895fdb4e79cae2635989ccc410d5e4bbb))
+* configure webpack ([27d206c](https://github.com/NeoBahamut/com_nicolaspetitot/commit/27d206ca9b1fb80d098fa6e3ccc2ac74c905fc26))
+
+
+### Bug Fixes
+
+* .gitignore ([126e7b1](https://github.com/NeoBahamut/com_nicolaspetitot/commit/126e7b1f1c61410356b6d50b11578f79e40ddf99))
+* ajoute le contenthash dans la config webpack ([c3ce587](https://github.com/NeoBahamut/com_nicolaspetitot/commit/c3ce5871de93ed9cd2e3598e868e5c16c1e9a207))
+* gitignore ([f51eaef](https://github.com/NeoBahamut/com_nicolaspetitot/commit/f51eaef8f7c701108c6235dc8fad7790582a0c89))
+* retire une commande de copie de fichiers inutile ([8bc8d7d](https://github.com/NeoBahamut/com_nicolaspetitot/commit/8bc8d7dbfa01173589cc2f743353e75f2bdc7c20))
+
 ### [0.1.4](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.3...v0.1.4) (2020-10-22)
 
 
