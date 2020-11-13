@@ -1,6 +1,6 @@
 {
   "name": "com_nicolaspetitot",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "page d'accueil du vps nicolaspetitot.com",
   "main": "index.js",
   "dependencies": {

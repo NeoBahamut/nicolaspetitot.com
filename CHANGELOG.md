@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.7...v0.1.8) (2020-11-13)
+
+
+### Features
+
+*  réinstallation du vps ([1d47780](https://github.com/NeoBahamut/com_nicolaspetitot/commit/1d47780763768f9958d41c8387cae909c4e62a46))
+
 ### [0.1.7](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.6...v0.1.7) (2020-11-13)
 
 
