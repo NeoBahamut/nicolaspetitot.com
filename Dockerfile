@@ -10,7 +10,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 
-# compie des sources
+# copie des sources
 COPY index.js ./
 COPY template.html ./
 COPY webpack.config.js ./
