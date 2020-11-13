@@ -30,3 +30,7 @@ const p2 = document.createElement("p");
 p2.textContent = `${myStartUp.name} est top !`;
 
 app.append(p2);
+
+// ré-install du VPS le 13/11/2020
+const p3 = document.createElement("p");
+p3.textContent = "Réinstallation du vps effectuée le 13/11/2020 en ~3h";
