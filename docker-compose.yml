@@ -2,7 +2,7 @@ version: "3"
 services:
   app:
     container_name: com_nicolaspetitot
-    build: .
+    build: . --no-cache
     environment:
       VIRTUAL_HOST: ${URL}
       LETSENCRYPT_HOST: ${URL}
