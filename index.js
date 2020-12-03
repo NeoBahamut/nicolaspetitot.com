@@ -20,16 +20,16 @@ app.append(p);
 
 // Tester du code ancien
 // créer une instance de classe sans constructeur
-class StartUp {
-  name = "camino";
-}
+// class StartUp {
+//   name = "camino";
+// }
 
-const myStartUp = new StartUp();
+// const myStartUp = new StartUp();
 
-const p2 = document.createElement("p");
-p2.textContent = `${myStartUp.name} est top !`;
+// const p2 = document.createElement("p");
+// p2.textContent = `${myStartUp.name} est top !`;
 
-app.append(p2);
+// app.append(p2);
 
 // ré-install du VPS le 13/11/2020
 const p3 = document.createElement("p");
