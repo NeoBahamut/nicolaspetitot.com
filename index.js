@@ -35,3 +35,8 @@ app.append(p2);
 const p3 = document.createElement("p");
 p3.textContent = "Réinstallation du vps effectuée le 13/11/2020 en ~3h";
 app.append(p3);
+
+// ajout du fichier .github/workflows/ci.yml 01/12/2020
+const p4 = document.createElement("p");
+p4.textContent = "intégration de la CI le 01/12/2020";
+app.append(p4);
