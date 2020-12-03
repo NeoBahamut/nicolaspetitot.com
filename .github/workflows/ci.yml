@@ -1,0 +1,29 @@
+name: CI
+on:
+  push:
+  pull_request:
+  release:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.15]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Test units
+        run: |
+          npm ci
+          npm test
+        env:
+          CODECOV_TOKEN: "59b05691e2ef9a29f56fb98645966f0d453164b1"
+          CI: true
