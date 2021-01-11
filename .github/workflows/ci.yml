@@ -27,24 +27,3 @@ jobs:
         env:
           CODECOV_TOKEN: "59b05691e2ef9a29f56fb98645966f0d453164b1"
           CI: true
-
-  build:
-    if: github.ref == 'refs/heads/master' || github.event_name == 'release'
-    needs: test
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.15]
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-      - name: Build Docker image
-        run: docker build . --tag nicopetitot/nicolaspetitot-vps
-      - name: Push Docker image to the Docker Hub
-        run: |
-          docker login --username "$DOCKER_USERNAME" --password "$DOCKER_PASSWORD"
-          docker push nicopetitot/nicolaspetitot-vps:master
-        env:
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
