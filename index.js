@@ -40,3 +40,8 @@ app.append(p3);
 const p4 = document.createElement("p");
 p4.textContent = "intégration de la CI le 01/12/2020";
 app.append(p4);
+
+// ajout des fichiers sum.js et sum.test.js le 05/02/2021
+const p5 = document.createElement("p");
+p5.textContent = "installation de jest le 05/02/2021";
+app.append(p5);
