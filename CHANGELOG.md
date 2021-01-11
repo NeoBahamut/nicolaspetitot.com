@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.8...v0.1.9) (2021-01-11)
+
+
+### Features
+
+* ajoute le message d'intégration de la CI ([7d19256](https://github.com/NeoBahamut/com_nicolaspetitot/commit/7d19256f531f7b6817550a5ad2b473688f918f77))
+
+
+### Bug Fixes
+
+* build sans cache ([fac3d36](https://github.com/NeoBahamut/com_nicolaspetitot/commit/fac3d3687beb725700b591f929f08a19a1757036))
+* reset ([630d04e](https://github.com/NeoBahamut/com_nicolaspetitot/commit/630d04e229c13d490ce81ef9fd79965c90b13224))
+
 ### [0.1.8](https://github.com/NeoBahamut/com_nicolaspetitot/compare/v0.1.7...v0.1.8) (2020-11-13)
 
 
