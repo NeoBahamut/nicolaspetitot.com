@@ -24,7 +24,8 @@
   },
   "scripts": {
     "test:lint": "eslint .",
-    "test": "jest",
+    "test:jest": "jest",
+    "test": "npm run test:lint && npm run:jest",
     "build": "webpack",
     "dev:build": "webpack --config webpack.dev.config.js",
     "release": "standard-version && git push --follow-tags upstream master && conventional-github-releaser"
