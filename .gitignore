@@ -3,3 +3,5 @@ webpack.dev.config.js
 node_modules
 /dist
 /distwebpack.dev.config.js
+package.json
+package-lock.json
