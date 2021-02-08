@@ -40,7 +40,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Build Docker image
-        run: docker build . --tag nicopetitot/nicolaspetitot-vps
+        run: docker build . --tag nicopetitot/nicolaspetitot-vps:master
       - name: Push Docker image to the Docker Hub
         run: |
           docker login --username "$DOCKER_USERNAME" --password "$DOCKER_PASSWORD"
