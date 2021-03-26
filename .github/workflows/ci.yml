@@ -48,3 +48,25 @@ jobs:
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
+  release:
+    if: github.event_name == 'release'
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.15]
+
+    steps:
+      - name: Add the release tag
+        run: |
+          docker login --username "$DOCKER_USERNAME" --password "$DOCKER_PASSWORD"
+          docker pull nicopetitot/nicolaspetitot-vps:master
+          docker tag nicopetitot/nicolaspetitot-vps:master nicopetitot/nicolaspetitot-vps:$VERSION
+          docker push nicopetitot/nicolaspetitot-vps:$VERSION
+          docker tag nicopetitot/nicolaspetitot-vps:master nicopetitot/nicolaspetitot-vps:latest
+          docker push nicopetitot/nicolaspetitot-vps:latest
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          VERSION: ${{ github.event.release.tag_name }}
